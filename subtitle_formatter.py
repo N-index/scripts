@@ -1,3 +1,4 @@
+# This script used to fix format corrupted subtitle files
 import os
 
 def drop(str):
