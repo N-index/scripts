@@ -1,3 +1,4 @@
+# interview question on 2021/6/2
 line = input()
 ops = line.split(' ')
 total_cnt = 0
