@@ -10,7 +10,7 @@ function insertionSort(array) {
     const need_insert = array[i];
     let insert_index = 0;
     
-    // 在有序列表中寻找坑位
+    // 在有序列表中寻找坑位. 现为遍历方式插入，应优化为二分插入（TODO）
     for(let j=0;j<=sorted_length;j++){
       if(need_insert < array[j]){
         break;
