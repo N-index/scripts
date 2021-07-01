@@ -1,6 +1,6 @@
 // 复制到控制台
 
-// 首页类
+// 首页类，完全匹配。
 const matchUrls = [
   'https://duckduckgo.com/',
   'https://www.bing.com/',
@@ -13,6 +13,7 @@ const matchUrls = [
   'https://weibo.com/',
   'https://stackoverflow.com/',
   'https://github.com/',
+  'https://css-tricks.com/',
   'https://codepen.io/your-work',
   'https://codepen.io/',
   'https://www.v2ex.com/',
@@ -22,7 +23,7 @@ const matchUrls = [
   'https://www.bilibili.com/',
 ];
 
-// 文档类、工具类、全部清除
+// 文档类、工具类，相关内容全部清除
 const containUrls = [
   'https://www.processon.com',
   'https://keep.google.com/',
